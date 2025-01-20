@@ -1,0 +1,40 @@
+.services{
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    button{
+        color: orange;
+        align-self: flex-start;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+  }
