@@ -15,6 +15,9 @@
 .wrapper{
     width: 80%;
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
 }
 .navbar{
     padding: 20px 0px;
@@ -37,10 +40,36 @@
 }
 
 .content{
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+   
+    h1{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 23px;
+        align-self: center;
+    }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .list{
+        display: none;  
+    }
+    .content{
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+  }

@@ -1,0 +1,43 @@
+.meet{
+    padding: 150px 0px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    padding-bottom: 50px;
+}
+.cards{
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    span{
+        color: rgb(177, 177, 177);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 900px){
+    .card{
+        width: 40%;
+    }
+  }

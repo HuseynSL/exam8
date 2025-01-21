@@ -28,7 +28,7 @@ function Hero() {
           </div>
 
         <div className={style.content}>
-            <h1>Banking Solutions</h1>
+            <h1>Financing Solutions</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt quaerat molestias exercitationem blanditiis provident officiis aliquam.</p>
         </div>
         </div>
